@@ -1,43 +1,22 @@
 apiVersion: apps/v1
-
 kind: Deployment
-
 metadata:
-
-  name: ctse-deployment
-
+  name: user-deployment
   labels:
-
     app: ctse-app
-
 spec:
-
   replicas: 3
-
   selector:
-
     matchLabels:
-
       app: ctse-app
-
   template:
-
     metadata:
-
       labels:
-
         app: ctse-app
-
     spec:
-
       containers:
-
-      - name: ctse-app
-
-        image: dew98/user-management:v1
-
-        imagePullPolicy: Always
-
-        ports:
-
-        - containerPort: 8065
+        - name: ctse-app
+          image: dew98/user-management:v1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8065
