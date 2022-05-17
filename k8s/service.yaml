@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
- name: ctse-service
+ name: user-service
  labels:
    app: ctse-service
 spec: 
