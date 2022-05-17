@@ -7,7 +7,7 @@ env:
   PROJECT_ID: ctse-350410
   GKE_CLUSTER: ctse-cluster
   GKE_ZONE: asia-south1-a
-  CONTAINER_NAME: ctse-app
+  CONTAINER_NAME: user-app
   CONTAINER_IMAGE_NAME: user-management
   DOCKER_USERNAME: dew98
 

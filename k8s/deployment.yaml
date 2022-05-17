@@ -15,7 +15,7 @@ spec:
         app: ctse-app
     spec:
       containers:
-        - name: ctse-app
+        - name: user-app
           image: dew98/user-management:v1
           imagePullPolicy: Always
           ports:
