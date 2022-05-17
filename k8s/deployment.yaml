@@ -19,4 +19,4 @@ spec:
           image: dew98/user-management:v1
           imagePullPolicy: Always
           ports:
-            - containerPort: 8065
+          - containerPort: 8065
